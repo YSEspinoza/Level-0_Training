@@ -6,7 +6,8 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
 body {
-    background-color: #fff;
+    background-color: $color-saltbox;
     margin: 0;
     padding: 0;
+    height: 100%;
 }

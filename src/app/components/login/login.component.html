@@ -1,1 +1,31 @@
-<p>login works!</p>
+<div class="container">
+    <div class="login bg-white align-middle">
+        <div class="d-flex justify-content-center">
+            <img class="logo" src="../../../assets/images/Logo.svg" alt="logo">
+        </div>
+        <h1 class="login__label">Login</h1>
+        <div>
+            <label class="textfield__label">User ID</label><br>
+            <input type="text" class="login__textfield">
+        </div>
+        <div class="login__password">
+            <label class="textfield__label">Password</label><br>
+            <input type="password" class="login__textfield">
+        </div>
+        <div class="d-flex">
+            <div class="w-50">
+                <i>Forgot Password?</i>
+            </div>
+            <div class="w-50">
+                <i class="d-flex justify-content-end">Create Account Here</i>
+            </div>
+        </div>
+        <div class="login__error">
+            <fa-icon [icon]="faExclamationCircle"></fa-icon>
+            <label class="login__errormessage">User ID or Password is Incorrect</label>
+        </div>
+        <button class="login__loginBtn">Login</button>
+        <hr>
+        <button class="login__signupBtn"><fa-icon [icon]="faGoogle" class="login__icon"></fa-icon> Sign in with Google</button>
+    </div>
+</div>
